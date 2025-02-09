@@ -1,0 +1,3 @@
+[2025-02-09T01:30:16.518Z] shopify-webhook - ERROR: Invalid webhook signature
+[2025-02-09T01:32:17.482Z] shopify-webhook - INFO: Received headers: [["accept","*/*"],["accept-encoding","gzip, deflate, br"],["connection","keep-alive"],["content-length","59"],["content-type","application/json"],["host","localhost:3001"],["postman-token","650b2216-a373-427b-80f4-38ee864fa221"],["user-agent","PostmanRuntime/7.43.0"],["x-forwarded-for","::1"],["x-forwarded-host","localhost:3001"],["x-forwarded-port","3001"],["x-forwarded-proto","http"],["x-shopify-hmac-sha256",""],["x-shopify-topic","orders/fulfilled"]]
+[2025-02-09T01:32:17.485Z] shopify-webhook - ERROR: Invalid webhook signature
