@@ -1,0 +1,10 @@
+[
+  {
+    "headers": {},
+    "payload": {
+      "order_id": 12345,
+      "status": "fulfilled"
+    },
+    "receivedAt": "2025-02-09T02:05:50.676Z"
+  }
+]
