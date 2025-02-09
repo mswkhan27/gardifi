@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const dataFilePath = path.join(process.cwd(), 'data.json'); // Path to the local JSON file
+const dataFilePath = path.join(process.cwd(), 'tmp/data.json'); // Path to the local JSON file
 
 export async function POST(req) {
   try {
