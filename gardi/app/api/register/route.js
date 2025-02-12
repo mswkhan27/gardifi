@@ -28,10 +28,9 @@ export async function POST(req) {
   const { data: roleData } = await supabase
     .from("user_roles")
     .select("id")
-    .eq("role_name", "Customer")
+    .eq("role_name", role)
     .single();
 
-  console.log("RoleData: ", roleData);
   if (!roleData)
     return new Response(JSON.stringify({ error: "Role not found" }), {
       status: 400,
