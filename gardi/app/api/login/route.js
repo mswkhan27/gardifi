@@ -54,7 +54,7 @@ export async function POST(req) {
         JSON.stringify({
           message: "Login successful",
           user: userInfo,
-          access_token: user.session.access_token,
+          session:user?.session
         }),
         { status: 200 }
       );
